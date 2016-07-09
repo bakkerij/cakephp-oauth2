@@ -1,0 +1,26 @@
+{
+    "name": "Bakkerij/OAuth2",
+    "description": "Bakkerij/OAuth2 plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
+        "league/fractal": "^0.13.0",
+        "league/oauth2-server": "^5.1",
+        "markstory/cakephp-spekkoek": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bakkerij\\OAuth2\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bakkerij\\OAuth2\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
